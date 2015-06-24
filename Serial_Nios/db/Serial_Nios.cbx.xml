@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Serial_Nios">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Nios|Serial_Nios_jtag_uart_0:jtag_uart_0|Serial_Nios_jtag_uart_0_scfifo_w:the_Serial_Nios_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Nios|Serial_Nios_nios2_qsys_0:nios2_qsys_0|Serial_Nios_nios2_qsys_0_nios2_oci:the_Serial_Nios_nios2_qsys_0_nios2_oci|Serial_Nios_nios2_qsys_0_nios2_ocimem:the_Serial_Nios_nios2_qsys_0_nios2_ocimem|Serial_Nios_nios2_qsys_0_ociram_sp_ram_module:Serial_Nios_nios2_qsys_0_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cm81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Nios|Serial_Nios_nios2_qsys_0:nios2_qsys_0|Serial_Nios_nios2_qsys_0_register_bank_a_module:Serial_Nios_nios2_qsys_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_89h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Nios|Serial_Nios_nios2_qsys_0:nios2_qsys_0|Serial_Nios_nios2_qsys_0_register_bank_b_module:Serial_Nios_nios2_qsys_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_99h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Nios|Serial_Nios_jtag_uart_0:jtag_uart_0|Serial_Nios_jtag_uart_0_scfifo_r:the_Serial_Nios_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Nios|Serial_Nios_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_kbd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Serial_Nios|Serial_Nios_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram|altsyncram_kbd1:auto_generated|altsyncram:ram_block1a0" CBX_FILE_NAME="altsyncram_ti23.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,196 @@
+Flow report for Serial_Nios
+Wed Jun 24 21:22:27 2015
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------------+
+; Flow Summary                                                                          ;
++------------------------------------+--------------------------------------------------+
+; Flow Status                        ; Successful - Wed Jun 24 21:22:24 2015            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                      ; Serial_Nios                                      ;
+; Top-level Entity Name              ; Serial_Nios                                      ;
+; Family                             ; Cyclone II                                       ;
+; Device                             ; EP2C5Q208C8                                      ;
+; Timing Models                      ; Final                                            ;
+; Total logic elements               ; 1,861 / 4,608 ( 40 % )                           ;
+;     Total combinational functions  ; 1,753 / 4,608 ( 38 % )                           ;
+;     Dedicated logic registers      ; 1,001 / 4,608 ( 22 % )                           ;
+; Total registers                    ; 1001                                             ;
+; Total pins                         ; 4 / 142 ( 3 % )                                  ;
+; Total virtual pins                 ; 0                                                ;
+; Total memory bits                  ; 93,184 / 119,808 ( 78 % )                        ;
+; Embedded Multiplier 9-bit elements ; 0 / 26 ( 0 % )                                   ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                    ;
++------------------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/24/2015 21:21:40 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Serial_Nios         ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                   ;
++-------------------------------------+---------------------------------------------------------------+---------------+---------------------------------+------------+
+; Assignment Name                     ; Value                                                         ; Default Value ; Entity Name                     ; Section Id ;
++-------------------------------------+---------------------------------------------------------------+---------------+---------------------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 13754232883741.143515209954648                                ; --            ; --                              ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; --                              ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_addr_router         ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_addr_router_001     ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_cmd_xbar_demux      ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_cmd_xbar_demux_001  ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_cmd_xbar_mux        ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_id_router           ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_id_router_002       ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_irq_mapper          ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_jtag_uart_0         ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_nios2_qsys_0        ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_onchip_memory2_0    ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_rsp_xbar_demux_002  ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_rsp_xbar_mux        ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_rsp_xbar_mux_001    ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_sysid_qsys_0        ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; Serial_Nios_uart_0              ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; altera_avalon_sc_fifo           ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; altera_merlin_master_agent      ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; altera_merlin_master_translator ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; altera_merlin_slave_agent       ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; altera_merlin_slave_translator  ; --         ;
+; IP_TOOL_ENV                         ; Qsys                                                          ; --            ; altera_reset_controller         ; --         ;
+; IP_TOOL_NAME                        ; Qsys                                                          ; --            ; --                              ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                          ; --            ; Serial_Nios_addr_router         ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                          ; --            ; Serial_Nios_addr_router_001     ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                   ; --            ; Serial_Nios_cmd_xbar_demux      ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                   ; --            ; Serial_Nios_cmd_xbar_demux_001  ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_multiplexer                                     ; --            ; Serial_Nios_cmd_xbar_mux        ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                          ; --            ; Serial_Nios_id_router           ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_router                                          ; --            ; Serial_Nios_id_router_002       ; --         ;
+; IP_TOOL_NAME                        ; altera_irq_mapper                                             ; --            ; Serial_Nios_irq_mapper          ; --         ;
+; IP_TOOL_NAME                        ; altera_avalon_jtag_uart                                       ; --            ; Serial_Nios_jtag_uart_0         ; --         ;
+; IP_TOOL_NAME                        ; altera_nios2_qsys                                             ; --            ; Serial_Nios_nios2_qsys_0        ; --         ;
+; IP_TOOL_NAME                        ; altera_avalon_onchip_memory2                                  ; --            ; Serial_Nios_onchip_memory2_0    ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_demultiplexer                                   ; --            ; Serial_Nios_rsp_xbar_demux_002  ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_multiplexer                                     ; --            ; Serial_Nios_rsp_xbar_mux        ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_multiplexer                                     ; --            ; Serial_Nios_rsp_xbar_mux_001    ; --         ;
+; IP_TOOL_NAME                        ; altera_avalon_sysid_qsys                                      ; --            ; Serial_Nios_sysid_qsys_0        ; --         ;
+; IP_TOOL_NAME                        ; altera_avalon_uart                                            ; --            ; Serial_Nios_uart_0              ; --         ;
+; IP_TOOL_NAME                        ; altera_avalon_sc_fifo                                         ; --            ; altera_avalon_sc_fifo           ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_master_agent                                    ; --            ; altera_merlin_master_agent      ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_master_translator                               ; --            ; altera_merlin_master_translator ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_slave_agent                                     ; --            ; altera_merlin_slave_agent       ; --         ;
+; IP_TOOL_NAME                        ; altera_merlin_slave_translator                                ; --            ; altera_merlin_slave_translator  ; --         ;
+; IP_TOOL_NAME                        ; altera_reset_controller                                       ; --            ; altera_reset_controller         ; --         ;
+; IP_TOOL_VERSION                     ; 13.0sp1                                                       ; --            ; --                              ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_addr_router         ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_addr_router_001     ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_cmd_xbar_demux      ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_cmd_xbar_demux_001  ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_cmd_xbar_mux        ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_id_router           ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_id_router_002       ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_irq_mapper          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0.1.99.2                                                   ; --            ; Serial_Nios_jtag_uart_0         ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_nios2_qsys_0        ; --         ;
+; IP_TOOL_VERSION                     ; 13.0.1.99.2                                                   ; --            ; Serial_Nios_onchip_memory2_0    ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_rsp_xbar_demux_002  ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_rsp_xbar_mux        ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_rsp_xbar_mux_001    ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; Serial_Nios_sysid_qsys_0        ; --         ;
+; IP_TOOL_VERSION                     ; 13.0.1.99.2                                                   ; --            ; Serial_Nios_uart_0              ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; altera_avalon_sc_fifo           ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; altera_merlin_master_agent      ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; altera_merlin_master_translator ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; altera_merlin_slave_agent       ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; altera_merlin_slave_translator  ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; altera_reset_controller         ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                            ; --            ; --                              ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                             ; --            ; --                              ; --         ;
+; MISC_FILE                           ; Serial_Nios/synthesis/../../Serial_Nios.cmp                   ; --            ; --                              ; --         ;
+; MISC_FILE                           ; Serial_Nios/synthesis/../../Serial_Nios.qsys                  ; --            ; --                              ; --         ;
+; PARTITION_COLOR                     ; 16764057                                                      ; --            ; --                              ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                         ; --            ; --                              ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                        ; --            ; --                              ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                  ; --            ; --                              ; --         ;
+; SLD_INFO                            ; QSYS_NAME Serial_Nios HAS_SOPCINFO 1 GENERATION_ID 1435139285 ; --            ; --                              ; --         ;
+; SOPCINFO_FILE                       ; Serial_Nios/synthesis/../../Serial_Nios.sopcinfo              ; --            ; --                              ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                            ; --            ; --                              ; --         ;
++-------------------------------------+---------------------------------------------------------------+---------------+---------------------------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:20     ; 1.0                     ; 553 MB              ; 00:00:12                           ;
+; Fitter                    ; 00:00:17     ; 1.1                     ; 766 MB              ; 00:00:13                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 414 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 428 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:41     ; --                      ; --                  ; 00:00:27                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; PC201402201759   ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; PC201402201759   ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; PC201402201759   ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; PC201402201759   ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Serial_Nios -c Serial_Nios
+quartus_fit --read_settings_files=off --write_settings_files=off Serial_Nios -c Serial_Nios
+quartus_asm --read_settings_files=off --write_settings_files=off Serial_Nios -c Serial_Nios
+quartus_sta Serial_Nios -c Serial_Nios
+
+
+

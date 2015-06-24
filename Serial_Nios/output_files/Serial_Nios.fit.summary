@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jun 24 21:22:19 2015
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Serial_Nios
+Top-level Entity Name : Serial_Nios
+Family : Cyclone II
+Device : EP2C5Q208C8
+Timing Models : Final
+Total logic elements : 1,861 / 4,608 ( 40 % )
+    Total combinational functions : 1,753 / 4,608 ( 38 % )
+    Dedicated logic registers : 1,001 / 4,608 ( 22 % )
+Total registers : 1001
+Total pins : 4 / 142 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 93,184 / 119,808 ( 78 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
